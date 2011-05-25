@@ -4,7 +4,7 @@ This allows you to access keyboard events by their human name rather than keyCod
 
 
 ```javascript
-window.onclick = function (e) {
+window.onkeydown = function (e) {
 	UserEventByName(e,"space,up,down"); // will return true if space, up, or down are pressed, false for everything else.
 }
 ```
